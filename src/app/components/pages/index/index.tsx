@@ -14,6 +14,7 @@ import Heading from './heading';
 import Features from './features';
 import SideBySide from './sidebyside';
 import PublishersDevelopers from './publishers-developers';
+import DiagonalBand from "../../common/diagonal-band";
 
 // @ts-ignore
 import Rocket from '../../../static/images/homepage/rocket.svg';
@@ -79,7 +80,7 @@ export default class IndexRoute extends Component<Props & HTMLDivProps, State> {
 				<meta name="description" content={''}/>
 			</Helmet>
 
-			{/*<DiagonalBand skew={24}/>*/}
+			<DiagonalBand skew={24}/>
 
 			<Wrapper>
 				<Hero>
