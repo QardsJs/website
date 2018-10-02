@@ -5,21 +5,21 @@ import tinycolor from 'tinycolor2';
 import LazyLoad from 'react-lazyload';
 import {Box} from 'grid-styled';
 
-import theme from '../../theme/';
-import Subscribe from '../../components/subscribe';
-import Layout from '../../components/layout';
+import theme from '../../../../theme/';
+import Subscribe from '../../../../components/subscribe';
+import Layout from '../../../../components/layout';
 import Helmet from 'react-helmet';
-import Content from '../../components/layout/content';
-import Heading from './_heading';
-import Features from './_features';
-import SideBySide from './_sidebyside';
-import PublishersDevelopers from './_publishers-developers';
+import Content from '../../../../components/layout/content';
+import Heading from './heading';
+import Features from './features';
+import SideBySide from './sidebyside';
+import PublishersDevelopers from './publishers-developers';
 
 // @ts-ignore
-import Rocket from '../static/images/rocket.svg';
-import Posts from '../../components/posts';
-import {PostType} from '../../fragments/post';
-import {getThemeConfig} from '../../utils/helpers';
+import Rocket from '../../../static/images/homepage/rocket.svg';
+import Posts from '../../../../components/posts';
+import {PostType} from '../../../../fragments/post';
+import {getThemeConfig} from '../../../../utils/helpers';
 
 const Wrapper = styled.div``;
 

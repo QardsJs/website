@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Box, Flex } from "grid-styled";
 import styled from 'styled-components';
 
-import theme from "../../theme";
+import theme from "../../../../theme";
 
 const HeadingsWrapper = styled.div`
 	text-align: center;

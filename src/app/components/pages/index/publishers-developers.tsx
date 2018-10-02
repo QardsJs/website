@@ -6,13 +6,13 @@ import Img from 'gatsby-image';
 
 import 'react-circular-progressbar/dist/styles.css';
 
-import theme from '../../theme/';
+import theme from '../../../../theme/';
 import {Icon} from '@blueprintjs/core';
 import {IconNames} from '@blueprintjs/icons';
 
 import {graphql, StaticQuery} from 'gatsby';
-import {CardImageType} from '../../components/qard/image';
-import {getThemeConfig} from '../../utils/helpers';
+import {CardImageType} from '../../../../components/qard/image';
+import {getThemeConfig} from '../../../../utils/helpers';
 
 const Wrapper = styled.div`
     color: ${getThemeConfig(['colors', 'primary', 'background'])};

@@ -24,7 +24,7 @@ export default class HomepageHero extends Component<Props & HTMLDivProps, State>
 				<HeroSubTitle>
 					Qards is a blogging platform focused on performance and on closing the gap
 					between content publishers and developers
-                </HeroSubTitle>
+				</HeroSubTitle>
 			</Wrapper>
 		);
 	}

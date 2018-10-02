@@ -3,11 +3,12 @@ import styled from 'styled-components';
 import {ProgressBar, Intent} from '@blueprintjs/core';
 import {HTMLDivProps} from '@blueprintjs/core/src/common/props';
 import {Box, Flex} from 'grid-styled';
+// @ts-ignore
 import CircularProgressbar from 'react-circular-progressbar';
 
-import theme from '../../theme/';
+import theme from '../../../../theme/';
 import 'react-circular-progressbar/dist/styles.css';
-import {getThemeConfig} from '../../utils/helpers';
+import {getThemeConfig} from '../../../../utils/helpers';
 
 const Wrapper = styled.div`
     background: white;
@@ -104,7 +105,10 @@ export default class SideBySide extends Component<Props & HTMLDivProps, State> {
 										strokeWidth={3}
 										styles={{
 											path: {stroke: getThemeConfig(['colors', 'intents', 'success', 'text'])},
-											text: {fill: getThemeConfig(['colors', 'intents', 'success', 'text']), fontSize: '16px'},
+											text: {
+												fill    : getThemeConfig(['colors', 'intents', 'success', 'text']),
+												fontSize: '16px',
+											},
 										}}
 									/>
 								</div>
@@ -158,7 +162,10 @@ export default class SideBySide extends Component<Props & HTMLDivProps, State> {
 										strokeWidth={4}
 										styles={{
 											path: {stroke: getThemeConfig(['colors', 'intents', 'warning', 'text'])},
-											text: {fill: getThemeConfig(['colors', 'intents', 'warning', 'text']), fontSize: '16px'},
+											text: {
+												fill    : getThemeConfig(['colors', 'intents', 'warning', 'text']),
+												fontSize: '16px',
+											},
 										}}
 									/>
 

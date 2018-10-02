@@ -6,9 +6,9 @@ import {IconName, IconNames} from '@blueprintjs/icons';
 import {HTMLDivProps} from '@blueprintjs/core/src/common/props';
 import {Box, Flex} from 'grid-styled';
 
-import theme from '../../theme/';
+import theme from '../../../../theme/';
 
-import {getThemeConfig} from '../../utils/helpers';
+import {getThemeConfig} from '../../../../utils/helpers';
 
 const Wrapper = styled.div`
     box-shadow: rgba(8, 35, 51, 0.05) 0px 4px 8px;
