@@ -118,10 +118,9 @@ export default class IndexRoute extends Component<Props & HTMLDivProps, State> {
 					<div style={{
 						textAlign: 'center',
 						marginTop: -155,
+						marginBottom: 40
 					}}>
-						<LazyLoad height={296}>
-							<img width={250} src={Rocket} alt=""/>
-						</LazyLoad>
+						<img width={250} src={Rocket} alt="Supercharge your content with Qards"/>
 					</div>
 
 					<Hero>

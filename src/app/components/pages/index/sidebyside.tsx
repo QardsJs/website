@@ -117,8 +117,9 @@ export default class SideBySide extends Component<Props & HTMLDivProps, State> {
 							<Box width={[1, 1, 1, 1 / 2]} px={[4, 4, 4, 0]} mt={[40, 40, 40, 0]}>
 								<b>Performance index</b>
 								<span>
-									Qards blog deployed to a CDN that served from a location close to where the test was made
-                                </span>
+									Qards blog deployed to a CDN that served from a
+									location close to where the test was made
+                                		</span>
 							</Box>
 						</CircularFlex>
 
