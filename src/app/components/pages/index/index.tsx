@@ -14,7 +14,7 @@ import Heading from './heading';
 import Features from './features';
 import SideBySide from './sidebyside';
 import PublishersDevelopers from './publishers-developers';
-import DiagonalBand from "../../common/diagonal-band";
+import DiagonalBand from '../../common/diagonal-band';
 
 // @ts-ignore
 import Rocket from '../../../static/images/homepage/rocket.svg';
@@ -48,15 +48,7 @@ export const Hero = styled.div`
 
 export const GreenBg = styled.div`
     color: ${getThemeConfig(['colors', 'primary', 'text'])};
-	background-color: #3DCC91;
-    background-image: radial-gradient(ellipse at center -50%, ${tinycolor('#3DCC91').lighten(20).toString()} 0%,#3DCC91 56%,#3DCC91 100%);
-    padding: 80px 0;
-	margin-top: 200px;
-`;
-
-export const PrimaryBg = styled.div`
-    background: ${getThemeConfig(['colors', 'primary', 'background'])};
-    color: ${getThemeConfig(['colors', 'primary', 'text'])};
+	background-color: ${getThemeConfig(['colors', 'primary', 'background'])};
     background-image: radial-gradient(ellipse at center -50%, ${tinycolor(getThemeConfig(['colors', 'primary', 'background'])).lighten(
 	20).toString()} 0%,${getThemeConfig(['colors', 'primary', 'background'])} 56%,${getThemeConfig(['colors', 'primary', 'background'])} 100%);
     padding: 80px 0;
@@ -115,10 +107,19 @@ export default class IndexRoute extends Component<Props & HTMLDivProps, State> {
 					</Box>
 				</Hero>
 
+				<Content darkTheme={true}>
+					<Box mb={40}>
+						<Posts darkTheme={true} showExcerpt={true} posts={latest.slice(0, 3)}
+							  title={`Latest articles`} paginate={{
+							pageSize: 6,
+						}}/>
+					</Box>
+				</Content>
+
 				<GreenBg>
 					<div style={{
 						textAlign: 'center',
-						marginTop: -235,
+						marginTop: -155,
 					}}>
 						<LazyLoad height={296}>
 							<img width={250} src={Rocket} alt=""/>
@@ -151,17 +152,6 @@ export default class IndexRoute extends Component<Props & HTMLDivProps, State> {
 						</Content>
 					</Box>
 				</Hero>
-
-				<PrimaryBg>
-					<Content>
-						<Box mb={40}>
-							<Posts darkTheme={true} showExcerpt={true} posts={latest.slice(0, 3)}
-								  title={`Latest articles`} paginate={{
-								pageSize: 6,
-							}}/>
-						</Box>
-					</Content>
-				</PrimaryBg>
 			</Wrapper>
 		</Layout>;
 	}
