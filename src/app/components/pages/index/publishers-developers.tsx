@@ -151,29 +151,29 @@ interface DataProps {
 const Index = (props: any) => {
 	return <StaticQuery
 		query={graphql`
-            query PublishersDevelopersImages {
-                allFile {
-                    edges {
-                        node {
-                            name
-                            extension
-                            childImageSharp {
-                                fluid(maxWidth: 1200) {
-                                    tracedSVG
-                                    aspectRatio
-                                    src
-                                    srcSet
-                                    sizes
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        `}
+			query PublishersDevelopersImages {
+				allFile(filter: {absolutePath: {regex: "//app/static/images/homepage//"}}) {
+					edges {
+						node {
+							name
+							extension
+
+							childImageSharp {
+								fluid(maxWidth: 1200) {
+									tracedSVG
+									aspectRatio
+									src
+									srcSet
+									sizes
+								}
+							}
+						}
+					}
+				}
+			}
+		`}
 
 		render={(data: DataProps) => {
-			console.log(data);
 			return <PublishersDevelopers {...data} />;
 		}}
 	/>;
