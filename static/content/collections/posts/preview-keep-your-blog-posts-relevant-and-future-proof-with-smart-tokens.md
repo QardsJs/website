@@ -53,6 +53,6 @@ The list of supported tokens is currently small because I don't want to add usel
 
 {"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IkhvdyB0byB1c2UgdGhlc2UgdG9rZW5zIiwic3VidGl0bGUiOiJEZWFkIHNpbXBsZS4uLmp1c3QgcGFzdGUgdGhlbSB3aGVyZSB5b3Ugc2VlIGZpdCJ9"}
 
-{"widget":"image","config":"eyJzcmMiOiIvaW1hZ2VzL3VwbG9hZHMveHloa253cy5qcGciLCJhbHQiOiJBcnRpY2xlIHRva2VucyJ9"}
+{"widget":"image","config":"eyJzcmMiOiIvaW1hZ2VzL3VwbG9hZHMvc2NyZWVuc2hvdC1mcm9tLTIwMTgtMDktMDktMDEtMTktNTUucG5nIiwiYWx0IjoiQXJ0aWNsZSB0b2tlbnMifQ=="}
 
 You have the list of places where tokens are inserted and you know the tokens. Just paste them where you see fit and our platform will do the rest. Since Qards is a static site don't expect to have a real-time date because your assets are compiled and uploaded to production but, with formats that target bigger time frames, you should be fine and ready to conquer ranks.
