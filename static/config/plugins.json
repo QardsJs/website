@@ -1,22 +1,22 @@
 {
   "tracking": {
-    "enable": false,
+    "enable": true,
     "analytics": {
-      "trackingId": ""
+      "trackingId": "UA-36099094-14"
     }
   },
   "emailSubscribers": {
-    "enable": false,
+    "enable": true,
     "mailchimp": {
-      "endpoint": ""
+      "endpoint": "https://typely.us16.list-manage.com/subscribe/post?u=0e75dd97bdaae578cc15e3c85&id=d6d8685e38"
     }
   },
   "search": {
-    "enable": false,
+    "enable": true,
     "algolia": {
-      "appId": "",
-      "indexName": "",
-      "searchKey": ""
+      "appId": "ESDRIIM3R7",
+      "indexName": "qards",
+      "searchKey": "4f9308bded9d1eaf064439279835c69a"
     }
   },
   "rssFeed": {
