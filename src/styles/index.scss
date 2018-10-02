@@ -21,6 +21,11 @@
 	outline: none !important;
 }
 
+::selection {
+	background: $accent;
+	color: #fff;
+}
+
 body {
 	height: 100%;
 	margin: 0;
