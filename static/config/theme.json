@@ -3,15 +3,15 @@
     "intents": {
       "success": {
         "text": "#2fb57d",
-        "background": "#b5f3d9"
+        "background": "#B5F3D9"
       },
       "warning": {
         "text": "#ffa000",
-        "background": "#ffecce"
+        "background": "#FFECCE"
       },
       "danger": {
         "text": "#f74444",
-        "background": "#ffd9d9"
+        "background": "#FFD9D9"
       }
     },
     "primary": {
