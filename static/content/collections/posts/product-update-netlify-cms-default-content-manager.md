@@ -48,4 +48,14 @@ Most of these points in this section are inconsistencies that will be addressed 
 
 {"widget":"qards-section-heading","config":"eyJ0eXBlIjoic2Vjb25kYXJ5IiwidGl0bGUiOiJJdCdzIGNsb3NlbHkgdGllZCB0byBOZXRsaWZ5Iiwic3VidGl0bGUiOiJXZSdyZSBzdGlsbCBhdCB0aGUgbWVyY3kgb2YgYSB0aGlyZCBwYXJ0eSB3aXRoIG1hcmtldGluZyBnb2FscyJ9"}
 
-Even though I'm a big Netlify fan I can't be sure that their current plans will remain the same. I already see "marketing" pouring in bit by bit (they have to pay salaries after all) and certain restrictions taking place.
+Even though I'm a big Netlify fan I can't be sure that their current plans will remain the same. I already see "marketing" pouring in bit by bit (they have to pay salaries after all) and certain restrictions are starting to take place here and there.
+
+{"widget":"image","config":"eyJzcmMiOiIvaW1hZ2VzL3VwbG9hZHMvc2NyZWVuc2hvdC1mcm9tLTIwMTgtMTAtMDMtMDktMDEtNDgucG5nIiwiYWx0IjoiTmV0bGlmeSBpZGVudGl0eSBwcmljaW5nIn0="}
+
+The CMS team states that it is possible to use their product without being forced into using Netlify platform and I can see traces of it in the [Authentication & backends](https://www.netlifycms.org/docs/authentication-backends/) section of their docs.
+
+{"widget":"qards-section-heading","config":"eyJ0eXBlIjoic2Vjb25kYXJ5IiwidGl0bGUiOiJJdCdzIHN0aWxsIGF0IGFuIGVhcmx5IHN0YWdlIiwic3VidGl0bGUiOiJDb2RlIG1heSBzdWZmZXIgc2lnbmlmaWNhbnQgY2hhbmdlcyJ9"}
+
+From what I see, this cms was supposed to work out of a CDN but we're importing it into our React app as another set of components...not without its issues though.
+
+Since what we can import from Netlify CMS comes bundled with its own version of `react` and `react-dom` we can see some problems with certain `refs` not working. Those issues forced me to create a flag that tells the components when they operate in preview mode (publisher preview) in order to behave differently and disable some features. I'm not a fan of that because I am placing what I consider to be polluted code (code that gets to the end user) into my app but they said this is going to be addressed so good news ahead.
