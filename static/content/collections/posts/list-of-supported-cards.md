@@ -56,3 +56,9 @@ A rare footage of a very young Mike Tyson sparring Jimmy Clark in 1983
 {"widget":"qards-callout","config":"eyJtZXNzYWdlIjoiVGhlIGdlbmVyYWwgcG9wdWxhdGlvbiBkb2Vzbid0IGtub3cgd2hhdHMgaGFwcGVuaW5nIGFuZCAqKml0IGRvZXNuJ3QgZXZlbiBrbm93KiogdGhhdCBpdCBkb2Vzbid0IGtub3ciLCJ0aXRsZSI6Ildhcm5pbmciLCJpbnRlbnQiOiJ3YXJuaW5nIn0="}
 
 {"widget":"qards-callout","config":"eyJ0aXRsZSI6IkRhbmdlciIsImludGVudCI6ImRhbmdlciIsIm1lc3NhZ2UiOiJUaGUgZ2VuZXJhbCBwb3B1bGF0aW9uIGRvZXNuJ3Qga25vdyB3aGF0cyBoYXBwZW5pbmcgYW5kICoqaXQgZG9lc24ndCBldmVuIGtub3cqKiB0aGF0IGl0IGRvZXNuJ3Qga25vdyJ9"}
+
+{"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IkNvdW50ZG93biIsInN1YnRpdGxlIjoiVGltZXpvbmUgYXdhcmUgY291bnRkb3ducyB0byBldmVudHMiLCJ0eXBlIjoicHJpbWFyeSJ9"}
+
+Sometimes you want to inform your users of certain events. Dealing with dates, events and timezones has always been a struggle. This widget renders a countdown to a specified date and it shows the remaining time and event date in the user's timezone which is detected by the browser. Everything is clear and confusion-free.
+
+{"widget":"qards-countdown","config":"eyJldmVudCI6IjIwMjUtMTAtMDRUMTQ6MDA6MDAuMDAwWiIsInRpdGxlIjoiVGltZSB1bnRpbCByb2JvdHMgdGFrZSBvdmVyIHRoZSB3b3JsZCIsInN1YnRpdGxlIjoiVGhlIHNpbmd1bGFyaXR5IGlzIG5lYXIifQ=="}
