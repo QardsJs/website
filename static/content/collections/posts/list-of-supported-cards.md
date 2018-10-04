@@ -61,4 +61,6 @@ A rare footage of a very young Mike Tyson sparring Jimmy Clark in 1983
 
 Sometimes you want to inform your users of certain events. Dealing with dates, events and timezones has always been a struggle. This widget renders a countdown to a specified date and it shows the remaining time and event date in the user's timezone which is detected by the browser. Everything is clear and confusion-free.
 
+{"widget":"qards-divider","config":"eyJ0eXBlIjoiYnVsbGV0cyJ9"}
+
 {"widget":"qards-countdown","config":"eyJldmVudCI6IjIwMjUtMTAtMDRUMTQ6MDA6MDAuMDAwWiIsInRpdGxlIjoiVGltZSB1bnRpbCByb2JvdHMgdGFrZSBvdmVyIHRoZSB3b3JsZCIsInN1YnRpdGxlIjoiVGhlIHNpbmd1bGFyaXR5IGlzIG5lYXIifQ=="}
