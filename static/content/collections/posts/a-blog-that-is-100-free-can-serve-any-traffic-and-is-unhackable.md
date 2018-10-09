@@ -19,8 +19,8 @@ hero:
   alt: 'a blog that is 100% free, can serve any traffic and is unhackable'
   image: /images/uploads/lalo-hernandez-972496-unsplash.jpg
 excerpt: >-
-  With Qards you can have a free blog in a matter of minutes, a blog that is
-  100% free, can serve any traffic and is unhackable
+  With Qards you can have a free blog in a matter of minutes without having to
+  worry about servers, databases or traffic.
 ---
 My initial idea (selling point) with Qards was the widgets that allows publishers to express themselves without restraints. This comes from the fact that I hate WYSIWYG editors with a passion and I hate writing posts that limit me to images and text.
 
