@@ -64,3 +64,11 @@ Sometimes you want to inform your users of certain events. Dealing with dates, e
 {"widget":"qards-divider","config":"eyJ0eXBlIjoiYnVsbGV0cyJ9"}
 
 {"widget":"qards-countdown","config":"eyJldmVudCI6IjIwMjUtMTAtMDRUMTQ6MDA6MDAuMDAwWiIsInRpdGxlIjoiVGltZSB1bnRpbCByb2JvdHMgdGFrZSBvdmVyIHRoZSB3b3JsZCIsInN1YnRpdGxlIjoiVGhlIHNpbmd1bGFyaXR5IGlzIG5lYXIifQ=="}
+
+{"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IlJlZmVyZW5jZSIsInN1YnRpdGxlIjoiUmVmZXJlbmNlIGFub3RoZXIgcG9zdCB3aXRoaW4gYSBjYXJkIn0="}
+
+Using references you can link to other posts. A card is automatically created with the post title, excerpt and post cover (if exists). The card is meant to refer to other posts and keep your readers engaged.
+
+{"widget":"qards-reference","config":"eyJyZWZlcmVuY2UiOiJQcmV2aWV3OiBBZGQgYSBjb3VudGRvd24gdG8geW91ciBzcGVjaWFsIGV2ZW50cyJ9"}
+
+{"widget":"qards-reference","config":"eyJyZWZlcmVuY2UiOiJXZWxjb21lIHRvIFFhcmRzIC0gYSBibG9nZ2luZyBwbGF0Zm9ybSBmb3IgcHJvZmVzc2lvbmFscyJ9"}
