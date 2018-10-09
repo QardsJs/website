@@ -59,13 +59,13 @@ A rare footage of a very young Mike Tyson sparring Jimmy Clark in 1983
 
 {"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IkNvdW50ZG93biIsInN1YnRpdGxlIjoiVGltZXpvbmUgYXdhcmUgY291bnRkb3ducyB0byBldmVudHMiLCJ0eXBlIjoicHJpbWFyeSJ9"}
 
-Sometimes you want to inform your users of certain events. Dealing with dates, events and timezones has always been a struggle. This widget renders a countdown to a specified date and it shows the remaining time and event date in the user's timezone which is detected by the browser. Everything is clear and confusion-free.
-
 {"widget":"qards-divider","config":"eyJ0eXBlIjoiYnVsbGV0cyJ9"}
 
 {"widget":"qards-countdown","config":"eyJldmVudCI6IjIwMjUtMTAtMDRUMTQ6MDA6MDAuMDAwWiIsInRpdGxlIjoiVGltZSB1bnRpbCByb2JvdHMgdGFrZSBvdmVyIHRoZSB3b3JsZCIsInN1YnRpdGxlIjoiVGhlIHNpbmd1bGFyaXR5IGlzIG5lYXIifQ=="}
 
-{"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IlJlZmVyZW5jZSIsInN1YnRpdGxlIjoiUmVmZXJlbmNlIGFub3RoZXIgcG9zdCB3aXRoaW4gYSBjYXJkIn0="}
+Sometimes you want to inform your users of certain events. Dealing with dates, events and timezones has always been a struggle. This widget renders a countdown to a specified date and it shows the remaining time and event date in the user's timezone which is detected by the browser. Everything is clear and confusion-free.
+
+{"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IlJlZmVyZW5jZSIsInN1YnRpdGxlIjoiUmVmZXJlbmNlIGFub3RoZXIgcG9zdCB3aXRoaW4gYSBjYXJkIiwidHlwZSI6InByaW1hcnkifQ=="}
 
 Using references you can link to other posts. A card is automatically created with the post title, excerpt and post cover (if exists). The card is meant to refer to other posts and keep your readers engaged.
 
