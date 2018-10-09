@@ -28,9 +28,13 @@ I don't have much time to start open source projects and Qards was born out of n
 
 The fact that it all came together at a time when static apps are cool and trendy is a mere coincidence. The fact that it doesn't cost you anything to run a static website is another coincidence. The fact that, when I started working on Qards, **Ghost** announced their version that does similar things and **Wordpress** announced Gutenberg which does similar things is...another coincidence. 
 
+{"widget":"qards-reference","config":"eyJyZWZlcmVuY2UiOiJRYXJkcyB2cyBvdGhlciBwbGF0Zm9ybXMifQ=="}
+
 {"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IkEgYmxvZyB0aGF0IGlzIDEwMCUgZnJlZSIsInN1YnRpdGxlIjoiRnJlZSB0byBydW4sIGZyZWUgdG8gaG9zdCwgZnJlZSB0byBvcGVyYXRlIiwidHlwZSI6InByaW1hcnkifQ=="}
 
 I know the word free is often a catch-phrase but, in this case, it is not. Qards is free, it is based on [GatbyJs](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org/) which are both free and can be hosted on Netlify or any other CDN without spending a dime.
+
+{"widget":"qards-reference","config":"eyJyZWZlcmVuY2UiOiJQcm9kdWN0IHVwZGF0ZTogTmV0bGlmeSBDTVMgZGVmYXVsdCBjb250ZW50IG1hbmFnZXIifQ=="}
 
 {"widget":"qards-section-heading","config":"eyJ0aXRsZSI6IlNlcnZlIGFueSB0cmFmZmljIiwidHlwZSI6InByaW1hcnkifQ=="}
 
