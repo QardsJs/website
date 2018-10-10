@@ -45,13 +45,12 @@ class CategoryTemplate extends React.Component<Props, any> {
 		const {data} = this.props;
 
 		const {featured, category} = data;
-		const {edges} = data.posts;
 
 		return <Route
 			path={category.fields.slug}
 			component={CategoriesPage}
-			totalCount={data.posts.totalCount}
-			posts={extractNodesFromEdges(edges)}
+			totalCount={data.posts ? data.posts.totalCount : 0}
+			posts={data.posts ? extractNodesFromEdges(data.posts.edges) : []}
 			category={category}
 			featured={featured ? extractNodesFromEdges(featured.edges, '') : []}
 		/>;
