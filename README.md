@@ -8,13 +8,13 @@ https://app.netlify.com/start/deploy?repository=https://github.com/QardsJs/qards
 ## Notice!
 
 Qards has not yet been officially released. Even though the code has been
-public all this time I am still working on breaking changes. You can deploy
+public all this time I am still working on breaking the changes. You can deploy
 it but be advised that certain things might not work at all.
 
 ## Installation
 
 There's nothing to install and you can get started right away by clicking on
-the "deploy to Netlify" button above.
+the "deploy to Netlify" button given above.
 
 ### Admin interface
 
